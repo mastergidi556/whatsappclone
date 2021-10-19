@@ -1,2 +1,1 @@
-# whatsappclone
-A whatsapp clone
+# whatsapp
