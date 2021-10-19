@@ -1,0 +1,126 @@
+.land{
+    background-color: #f8f9fa;
+    height: 100%;
+    width: 100%;
+    display: grid;
+    place-items: center;
+    position: relative;
+}
+
+.land > .MuiIconButton-root{
+    position: absolute;
+    z-index: 5;
+    top: 5px;
+    left: 5px;
+}
+
+.land > .MuiIconButton-root .MuiSvgIcon-root{
+    font-size: 28px;
+    
+}
+
+.land__comp{
+    text-align: center;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.land__more__comp{
+    margin: 0 10px !important;
+}
+
+.land__comp > * {
+    margin: 10px 10px;
+}
+
+@media screen and (min-height: 650px) {
+    .land__comp > * {
+        margin: 25px 10px;
+    }
+
+}
+
+@media screen and (min-width: 500px) {
+    .land__comp > * {
+        margin: 0 10px !important;
+    }
+}
+
+
+.land__comp > .login__text{
+    /* margin-top: 30px; */
+}
+
+.land__comp .login__image{
+    border-radius: 50%;
+}
+
+.land__comp .login__image img{
+    padding: 20px;
+    border-radius: 50%;
+    width: 66% !important
+}
+
+.land__comp .login__story{
+    display: flex;
+    align-items: center;
+    width: 66%;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding: 0
+}
+
+
+.land__comp .login__story h3{
+    margin: 0px;
+    margin-bottom: 6px;
+}
+
+.land__comp .login__story .MuiSvgIcon-root {
+    /* fill: #26d366; */
+}
+
+.chat__start{
+    display: flex;
+    align-items: center;
+    color: #2a8d82;
+}
+
+.chat__start .MuiSvgIcon-root{
+    fill: #2a8d82;
+    font-size: 24px;
+}
+
+.chat__icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    /* background-color: #26d366; */
+    background-color: #2a8d82;
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+}
+
+.chat__icon .MuiSvgIcon-root{
+    fill: white
+}
+
+.chat__icon__also{
+    height: 30px;
+    color: grey;
+    /* display: flex;
+    align-items: center; */
+}
+
+.chat__icon__also .MuiSvgIcon-root{
+    /* margin: 4px 5px 0 5px; */
+    margin-top: -5px;
+}
+
+.login__more__story{
+    margin-bottom: 10px !important;
+}

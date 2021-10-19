@@ -1,0 +1,88 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    flex: 0.7;
+    height: 100vh;
+}
+
+.chat__header{
+    padding: 5px 20px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid lightgray;
+    /* justify-content: space-around; */
+}
+.chat__headerRight .MuiSvgIcon-root{
+    font-size: 22px;
+}
+
+/* .chat__header__arrowBack{ */
+.chat__header .MuiSvgIcon-root.chat__header__arrowBack {
+    fill: grey;
+    margin-left: -10px;
+    margin-right: 10px;
+    display: none;
+}
+
+.chat__headerInfo{
+    flex: 1;
+    padding-left: 20px;
+}
+
+.chat__headerInfo > h3 {
+    /* margin-bottom: 2px; */
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.chat__headerInfo > p {
+    color: gray;
+    font-size: 13px;
+}
+
+.chat__body{
+    flex: 1;
+    background-repeat: repeat;
+    background-position: center;
+    padding: 20px 9%;
+    overflow-y: auto;
+    transition: 0.5 ease;
+}
+
+
+
+.chat__footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+    border-top: 1px solid lightgray;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.chat__footer > form{
+    flex: 1;
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.chat__footer > form > input {
+    flex: 1;
+    border-radius: 31px;
+    padding: 10px 20px;
+    border: none;
+    height: 45px;
+    outline: none;
+    font-size: 20px;
+}
+
+.chat__footer > form > input::placeholder {
+    font-size: 15px;
+}
+
+.chat__footer > .MuiSvgIcon-root {
+    color: gray;
+    font-size: 30px;
+}

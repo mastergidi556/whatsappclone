@@ -1,0 +1,25 @@
+.chat__body__receiver{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    background-color: #dcf8c6;
+    border-top-right-radius: 0;
+    max-width: 70%;
+
+}
+
+.chat__body__receiver .left__triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid #dcf8c6;
+    border-right: 10px solid transparent;
+    top:0;
+    right: -10px;
+}

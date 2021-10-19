@@ -1,0 +1,75 @@
+.sidebarChat{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    /* border: 1px solid green; */
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.sidebarChat:hover{
+    background-color: #ebebeb;
+}
+
+.sidebarChat__avatar{
+    padding: 10px 20px; 
+    /* border: 1px solid firebrick */
+}
+
+.sidebarChat__avatar > .MuiAvatar-root{
+    width: 50px;
+    height: 50px
+}
+
+.sidebarChat__avatar > .MuiAvatar-root > .MuiAvatar-fallback {
+    width: 90%;
+    height: 90%;
+}
+
+.sidebarChat__info {
+    padding: 5px 0;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    /* border: 1px solid yellow; */
+}
+
+.sidebarChat__info p .MuiSvgIcon-root{
+    margin-bottom: -6px;
+    fill: grey;
+}
+
+.link{
+    text-decoration: none;
+    color: black;
+}
+
+.sidebarChat__info > h3 {
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebarChat__info > h3 span:first-child {
+    width: calc(100% - 52px);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.chatLastTime{
+    color: gray;
+    font-size: 13px;
+    justify-self: flex-end;
+    margin-right: 20px;
+}
+
+.sidebarChat__info > p {
+    /* width: 250px; */
+    width: 85%;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}

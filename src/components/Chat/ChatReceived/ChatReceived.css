@@ -1,0 +1,39 @@
+.chat__body__message{
+    position: relative;
+    font-size: 16px;
+    padding: 10px;
+    width: fit-content;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    background-color: #fff;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat__body__name{
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.chat__body__content{
+    margin-right: 40px;
+    font-size: 18px;
+}
+
+.chat__timestamp{
+    font-size: small;
+    position: absolute;
+    bottom: 5px;
+    right: 10px
+}
+
+.chat__body__message .right__triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 10px solid white;
+    border-left: 10px solid transparent;
+    top:0;
+    left: -10px;
+}
